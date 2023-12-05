@@ -1,0 +1,12 @@
+package collections;
+import java.util.Stack;
+public class NumberSorter {
+	void sort(int [] numbers){
+		Stack<Integer> srcStack= new Stack<Integer>();
+		
+		Stack<interger> destStack= new Stack<Interger>();
+			 
+		 }
+	
+}
+

@@ -1,0 +1,26 @@
+package lab1;
+
+public class Circle extends Shape {
+	 // Constructors
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    // Getters and setters
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    // Implementation of getArea() method for Circle
+    @Override
+    public double getArea() {
+        // Formula for the area of a circle: π * r^2
+        return Math.PI * Math.pow(radius, 2);
+    }
+}
+
+}
